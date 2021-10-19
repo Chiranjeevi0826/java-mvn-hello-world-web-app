@@ -33,6 +33,7 @@
 			<version>2.5</version>
 		</dependency>
 	</dependencies>
+	# This is for code change in devlop to code_pom branch to merge to master branch....!
 	<build>
 		<finalName>mvn-hello-world</finalName>
 		<plugins>
