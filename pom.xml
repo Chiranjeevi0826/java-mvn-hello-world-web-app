@@ -46,10 +46,10 @@
 				</configuration>
 			</plugin>
 			<properties>
-  <sonar.organization>chiranjeevi0826</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
-			name: Build
+                         <sonar.organization>chiranjeevi0826</sonar.organization>
+                         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+                        </properties>
+                         name: Build
 on:
   push:
     branches:
@@ -84,7 +84,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Chiranjeevi0826_java-mvn-hello-world-web-app
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Chiranjeevi0826_java-mvn-hello-world-web-app 
 			<plugin>
 				<!-- Java EE 6 doesn't require web.xml, Maven needs to catch up! -->
 				<groupId>org.apache.maven.plugins</groupId>
