@@ -48,8 +48,8 @@
 			<properties>
                          <sonar.organization>chiranjeevi0826</sonar.organization>
                          <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-                        </properties>
-                         name: Build
+</properties>
+name: Build
 on:
   push:
     branches:
